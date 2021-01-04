@@ -14,10 +14,10 @@ module.exports = function (app) {
             JSON.stringify(savedNote),
             function (err) {
                 if (err)
-                    return console.log('Something went wrong writing file');
+                    return console.log('file not writen');
             }
         );
-        res.send('Post Request');
+        res.send('Posted');
     });
     app.delete('/api/notes/:id', function (req, res) {
         var noteID = req.params.id;
@@ -31,10 +31,10 @@ module.exports = function (app) {
             function (err) {
                 if (err)
                     return console.log(
-                        'Something went wrong writing delted file'
+                        'file not written'
                     );
             }
         );
-        res.send('Delete Request');
+        res.send('Deleted');
     });
 };
