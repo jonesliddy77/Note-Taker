@@ -15,7 +15,7 @@ This application helps you take notes.
 ## Links
 
 * Project Repo: [Repository](https://github.com/jonesliddy77/Note-Taker)
-* Heroku Deplaoyed Website: [Repository](https://note-taker12345.herokuapp.com/)
+* Heroku Deplaoyed Website: [Website](https://note-taker12345.herokuapp.com/)
 
 ## Demo
 
